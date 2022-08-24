@@ -1,0 +1,87 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+* {
+	box-sizing: border-box;	
+}
+
+body {
+	margin: 40px;
+	font-family: 'Roboto', sans-serif;
+	align-items: center;
+  	justify-content: center;
+}
+
+#header {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #00bcd4; 
+	margin-top: 0px; 
+	padding: 15px 0px 15px 15px; 
+	text-align: center;
+}
+
+#header h2 {
+	width: 100%; 
+	margin: auto; 
+	color: white;
+}
+
+.add-button {
+	display: block;
+	border: 1px solid #666; 
+	border-radius: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	width: 120px; 
+	padding: 5px 10px;
+	margin: 15px 15px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #cccccc;
+}
+
+.table_responsive {
+	max-width: 900px;
+	border: 1px solid #00bcd4;
+	background-color: #efefef33;
+	padding: 15px;
+	overflow: auto;
+	margin: auto;
+	border-radius: 4px;
+}
+
+table {
+	width: 100%;
+	font-size: 13px;
+	color: #444;
+	white-space: nowrap;
+	border-collapse: collapse;
+}
+
+table th {
+	padding: 15px;
+	background-color: #00bcd4;
+	color: white;
+}
+
+table th,
+table td {
+	border: 1px solid #00000017;
+	padding: 10px 15px;
+}
+
+table>tr {
+	background-color: #fff;
+	transition: 0.3s ease-in-out;
+}
+
+table>tr:nth-child(even) {
+	background-color: rgb(238, 238, 238);
+}
+
+table>tr:hover {
+	filter: drop-shadow(0px 2px 6px #0002);
+}
